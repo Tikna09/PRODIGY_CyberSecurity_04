@@ -144,6 +144,7 @@ This file, when run, begins capturing keystrokes and sending them to the remote 
 # **Security & Ethical Considerations**
 
 **This project is conducted only for cybersecurity education. Real-world misuse of keyloggers is illegal and unethical.**
+
 **Ethical learning outcomes:**
 
 * Understanding malware helps in defending against it
