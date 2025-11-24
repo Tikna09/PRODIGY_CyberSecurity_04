@@ -44,8 +44,6 @@ The purpose of **this project is strictly educational—** to help students unde
 
 **Step 1 — Writing the Keylogger Script**
 
-Your VS Code screenshot shows the complete Python scrip
-🖼️ Screenshot: Windows VS Code with keylogger.py
 <img width="959" height="565" alt="Screenshot 2025-11-24 145831" src="https://github.com/user-attachments/assets/88c9940e-5a48-463b-ba01-023eea816276" />
 
 **Key components visible:**
