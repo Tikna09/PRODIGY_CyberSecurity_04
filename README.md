@@ -63,6 +63,7 @@ The purpose of **this project is strictly educational—** to help students unde
 
 <img width="959" height="564" alt="Screenshot 2025-11-24 140720" src="https://github.com/user-attachments/assets/87a96343-b759-4a5d-b03b-c555c95d2d98" />
 
+
 **Here, the command:**
 
 ./build.bat
