@@ -40,7 +40,24 @@ The purpose of **this project is strictly educational—** to help students unde
 * The data is sent to a remote listener server via a TCP socket.
 * The Kali Linux Netcat listener receives and displays the keystrokes in real time.
 
+# Implementation Steps (With Screenshot Explanation)
 
+**Step 1 — Writing the Keylogger Script**
+
+Your VS Code screenshot shows the complete Python scrip
+🖼️ Screenshot: Windows VS Code with keylogger.py
+(Path: /mnt/data/Screenshot 2025-11-24 140720.png)
+
+**Key components visible:**
+
+**socket → used for connecting to the server*
+**ctypes.windll.user32 → calling Windows API*
+**GetAsyncKeyState() → checking every key press*
+**ASCII table mapping special keys like:*
+**[TAB], [ENTER], [SHIFT], [BACKSPACE]*
+**Auto-lowercasing when Caps Lock is off*
+**Continuous loop sending keystrokes to server*
+This screenshot demonstrates the development environment and code logic used to capture keystrokes.
 
 
 
