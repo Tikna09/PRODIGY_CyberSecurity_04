@@ -19,3 +19,13 @@ The purpose of **this project is strictly educational—** to help students unde
 * To convert a Python script into a Windows executable.
 * To create a controlled simulation for monitoring keystrokes.
 * To demonstrate how attackers use such techniques—and how defenders can detect them.
+
+| Component                | Purpose                       |
+| ------------------------ | ----------------------------- |
+| **Python 3.10**          | Writing keylogger script      |
+| **ctypes (Windows API)** | Capturing keystrokes          |
+| **socket module**        | Sending data to server        |
+| **PyInstaller**          | Converting Python file to EXE |
+| **Kali Linux (Netcat)**  | Receiving keystrokes          |
+| **Windows 11**           | Running EXE for test          |
+
