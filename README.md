@@ -5,10 +5,10 @@ The purpose of this project is strictly educational—to help students understan
 
 The project is executed in a controlled lab environment using:
 
-Windows Machine (victim simulation)
+* Windows Machine (victim simulation)
 
-Kali Linux Machine (listener/server)
+* Kali Linux Machine (listener/server)
 
-Python keylogger script converted to EXE
+* Python keylogger script converted to EXE
 
-Netcat listener for receiving captured keystrokes
+* Netcat listener for receiving captured keystrokes
