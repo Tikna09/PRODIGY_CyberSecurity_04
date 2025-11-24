@@ -20,7 +20,7 @@ The purpose of **this project is strictly educational—** to help students unde
 * To create a controlled simulation for monitoring keystrokes.
 * To demonstrate how attackers use such techniques—and how defenders can detect them.
 
-# * Technologies Used
+# Technologies Used
 
 | Component                | Purpose                       |
 | ------------------------ | ----------------------------- |
@@ -30,4 +30,25 @@ The purpose of **this project is strictly educational—** to help students unde
 | **PyInstaller**          | Converting Python file to EXE |
 | **Kali Linux (Netcat)**  | Receiving keystrokes          |
 | **Windows 11**           | Running EXE for test          |
+
+# System Architecture
+
+**Workflow of the Project**
+* The keylogger script runs on the Windows machine.
+* It captures keystrokes using the Windows API (GetAsyncKeyState).
+* Each keystroke is converted into readable format.
+* The data is sent to a remote listener server via a TCP socket.
+* The Kali Linux Netcat listener receives and displays the keystrokes in real time.
+
+
+
+
+
+
+
+
+
+
+
+
 
