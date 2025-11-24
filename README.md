@@ -78,10 +78,11 @@ The purpose of **this project is strictly educational—** to help students unde
 
 <img width="959" height="565" alt="Screenshot 2025-11-24 140835" src="https://github.com/user-attachments/assets/989f8960-87e8-44d5-9919-7b231afcba12" />
 
-This shows:
-A disguised executable named word_document.exe
-Located in the PyInstaller dist folder
-File size: ~6.9 MB
+**This shows:**
+* A disguised executable named word_document.exe
+* Located in the PyInstaller dist folder
+* File size: ~6.9 MB
+
 This file, when run, begins capturing keystrokes and sending them to the remote server.
 
 
