@@ -104,18 +104,18 @@ On Kali Linux, the following command is used:
 * **Email**: xyz34@gmail.com
 * **Password**: xyz123@#$hjw#
 
-On the right side, the Kali terminal receives every keystroke live, including:
+**On the right side, the Kali terminal receives every keystroke live, including:**
 
-*[shift]
-*[lclick]
-*Characters like x, y, z, @, # etc.
-*[backspace] actions
+* [shift]
+* [lclick]
+* Characters like x, y, z, @, # etc.
+* [backspace] actions
 
-This screenshot verifies that:
-✔ The executable successfully runs
-✔ Keystrokes are captured
-✔ Data is transmitted remotely
-✔ Listener receives input exactly as typed
+**This screenshot verifies that:**
+* ✔ The executable successfully runs
+* ✔ Keystrokes are captured
+* ✔ Data is transmitted remotely
+* ✔ Listener receives input exactly as typed
 
 
 
