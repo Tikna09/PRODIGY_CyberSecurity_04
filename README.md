@@ -116,7 +116,7 @@ On Kali Linux, the following command is used:
 * ✔ Data is transmitted remotely
 * ✔ Listener receives input exactly as typed
 
-# **6. Code Explanation (High Level)**
+# **Code Explanation (High Level)**
 
 **1. Server Connection**
 * serverAddress = ('192.168.3.117', 9000)
@@ -140,6 +140,17 @@ On Kali Linux, the following command is used:
 
 **5. Infinite Loop**
 * Script keeps monitoring keys until closed.
+
+# **Security & Ethical Considerations**
+
+This project is conducted only for cybersecurity education. Real-world misuse of keyloggers is illegal and unethical.
+
+Ethical learning outcomes:
+
+* Understanding malware helps in defending against it
+* Helps develop intrusion detection tools
+* Teaches importance of secure authentication mechanisms
+* Demonstrates risks of untrusted executables
 
 
 
