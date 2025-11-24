@@ -145,12 +145,25 @@ On Kali Linux, the following command is used:
 
 This project is conducted only for cybersecurity education. Real-world misuse of keyloggers is illegal and unethical.
 
-Ethical learning outcomes:
+**Ethical learning outcomes:**
 
 * Understanding malware helps in defending against it
 * Helps develop intrusion detection tools
 * Teaches importance of secure authentication mechanisms
 * Demonstrates risks of untrusted executables
+
+
+# **Conclusion**
+
+**This project successfully demonstrates:**
+
+✔ How keystroke monitoring works in Windows.
+✔ How keyloggers send data remotely.
+✔ How Python scripts are turned into EXEs.
+✔ How a remote attacker can receive keystrokes.
+✔ Importance of cybersecurity awareness.
+
+The screenshots confirm that the keylogger captured sensitive input (email/password) and transmitted it over a network in real time, simulating real malware behavior—all done in a safe, controlled lab environment.
 
 
 
