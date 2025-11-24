@@ -20,7 +20,7 @@ The purpose of **this project is strictly educational—** to help students unde
 * To create a controlled simulation for monitoring keystrokes.
 * To demonstrate how attackers use such techniques—and how defenders can detect them.
 
-# Technologies Used
+# * Technologies Used
 
 | Component                | Purpose                       |
 | ------------------------ | ----------------------------- |
