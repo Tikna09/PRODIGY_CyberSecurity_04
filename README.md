@@ -59,7 +59,7 @@ The purpose of **this project is strictly educational—** to help students unde
 
  **This screenshot demonstrates the development environment and code logic used to capture keystrokes.**
 
- Step 2 — Converting Python Script to EXE
+ **Step 2 — Converting Python Script to EXE**
 
 <img width="959" height="564" alt="Screenshot 2025-11-24 140720" src="https://github.com/user-attachments/assets/87a96343-b759-4a5d-b03b-c555c95d2d98" />
 
@@ -73,6 +73,16 @@ The purpose of **this project is strictly educational—** to help students unde
 * Bootloader added
 * Manifest embedded
 * EXE successfully created
+
+**Step 3 — Generated Executable (Payload File)**
+
+<img width="959" height="565" alt="Screenshot 2025-11-24 140835" src="https://github.com/user-attachments/assets/989f8960-87e8-44d5-9919-7b231afcba12" />
+
+This shows:
+A disguised executable named word_document.exe
+Located in the PyInstaller dist folder
+File size: ~6.9 MB
+This file, when run, begins capturing keystrokes and sending them to the remote server.
 
 
 
