@@ -88,7 +88,6 @@ This file, when run, begins capturing keystrokes and sending them to the remote 
 **Step 4 — Setting Up the Listener on Kali Linux**
 
 On Kali Linux, the following command is used:
-
 nc -l -p 9000
 
 This opens a listening connection on port 9000.
