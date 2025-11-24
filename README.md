@@ -88,9 +88,36 @@ This file, when run, begins capturing keystrokes and sending them to the remote 
 **Step 4 — Setting Up the Listener on Kali Linux**
 
 On Kali Linux, the following command is used:
-nc -l -p 9000
+**nc -l -p 9000**
 
-This opens a listening connection on port 9000.
+**This opens a listening connection on port 9000.**
+
+Step 5 — Testing the Keylogger in a Browser
+
+🖼️ Screenshot: Facebook login page + Kali listener receiving data
+(Path: /mnt/data/Screenshot 2025-11-24 142157.png)
+
+On the left side, the Windows machine is typing:
+
+Email: xyz34@gmail.com
+
+Password: xyz123@#$hjw#
+
+On the right side, the Kali terminal receives every keystroke live, including:
+
+[shift]
+
+[lclick]
+
+Characters like x, y, z, @, # etc.
+
+[backspace] actions
+
+This screenshot verifies that:
+✔ The executable successfully runs
+✔ Keystrokes are captured
+✔ Data is transmitted remotely
+✔ Listener receives input exactly as typed
 
 
 
