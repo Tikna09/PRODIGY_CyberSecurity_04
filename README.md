@@ -116,7 +116,7 @@ On Kali Linux, the following command is used:
 * ✔ Data is transmitted remotely
 * ✔ Listener receives input exactly as typed
 
-**6. Code Explanation (High Level)**
+# **6. Code Explanation (High Level)**
 
 **1. Server Connection**
 * serverAddress = ('192.168.3.117', 9000)
