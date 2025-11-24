@@ -50,13 +50,13 @@ Your VS Code screenshot shows the complete Python scrip
 
 **Key components visible:**
 
-* **socket → used for connecting to the server*
-* **ctypes.windll.user32 → calling Windows API*
-* **GetAsyncKeyState() → checking every key press*
-* **ASCII table mapping special keys like:*
-* **[TAB], [ENTER], [SHIFT], [BACKSPACE]*
-* **Auto-lowercasing when Caps Lock is off*
-* **Continuous loop sending keystrokes to server*
+* *socket → used for connecting to the server*
+* *ctypes.windll.user32 → calling Windows API*
+* *GetAsyncKeyState() → checking every key press*
+* *ASCII table mapping special keys like:*
+* *[TAB], [ENTER], [SHIFT], [BACKSPACE]*
+* *Auto-lowercasing when Caps Lock is off*
+* *Continuous loop sending keystrokes to server*
 This screenshot demonstrates the development environment and code logic used to capture keystrokes.
 
 
