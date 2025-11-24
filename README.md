@@ -92,26 +92,24 @@ On Kali Linux, the following command is used:
 
 **This opens a listening connection on port 9000.**
 
-Step 5 — Testing the Keylogger in a Browser
+
+**Step 5 — Testing the Keylogger in a Browser**
 
 🖼️ Screenshot: Facebook login page + Kali listener receiving data
-(Path: /mnt/data/Screenshot 2025-11-24 142157.png)
+<img width="959" height="563" alt="Screenshot 2025-11-24 142157" src="https://github.com/user-attachments/assets/474bc3f4-52ca-4485-8d78-0a7af3235e04" />
 
-On the left side, the Windows machine is typing:
 
-Email: xyz34@gmail.com
+**On the left side, the Windows machine is typing:**
 
-Password: xyz123@#$hjw#
+* **Email**: xyz34@gmail.com
+* **Password**: xyz123@#$hjw#
 
 On the right side, the Kali terminal receives every keystroke live, including:
 
-[shift]
-
-[lclick]
-
-Characters like x, y, z, @, # etc.
-
-[backspace] actions
+*[shift]
+*[lclick]
+*Characters like x, y, z, @, # etc.
+*[backspace] actions
 
 This screenshot verifies that:
 ✔ The executable successfully runs
