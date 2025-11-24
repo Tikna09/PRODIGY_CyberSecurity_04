@@ -57,7 +57,9 @@ Your VS Code screenshot shows the complete Python scrip
 * *[TAB], [ENTER], [SHIFT], [BACKSPACE]*
 * *Auto-lowercasing when Caps Lock is off*
 * *Continuous loop sending keystrokes to server*
-  **This screenshot demonstrates the development environment and code logic used to capture keystrokes.**
+
+
+ **This screenshot demonstrates the development environment and code logic used to capture keystrokes.**
 
 
 
