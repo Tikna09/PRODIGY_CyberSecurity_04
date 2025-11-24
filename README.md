@@ -152,7 +152,6 @@ This project is conducted only for cybersecurity education. Real-world misuse of
 * Teaches importance of secure authentication mechanisms
 * Demonstrates risks of untrusted executables
 
-
 # **Conclusion**
 
 **This project successfully demonstrates:**
