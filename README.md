@@ -59,6 +59,22 @@ The purpose of **this project is strictly educational—** to help students unde
 
  **This screenshot demonstrates the development environment and code logic used to capture keystrokes.**
 
+ Step 2 — Converting Python Script to EXE
+
+🖼️ Screenshot: PyInstaller build process in the terminal
+<img width="959" height="564" alt="Screenshot 2025-11-24 140720" src="https://github.com/user-attachments/assets/87a96343-b759-4a5d-b03b-c555c95d2d98" />
+
+**Here, the command:**
+
+./build.bat
+
+**runs PyInstaller silently and generates a Windows executable**
+
+PyInstaller logs show:
+* Bootloader added
+* Manifest embedded
+* EXE successfully created
+
 
 
 
